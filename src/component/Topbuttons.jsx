@@ -26,7 +26,7 @@ title:'London'
 
     
   return (
-    <div className=' flex justify-between items-center pt-4'>
+    <div className=' flex justify-between items-center '>
     {cities.map((city)=> 
     (
         <button key= {city.id} className='font-medium text-lg text-white'   onClick={()=>setQuery({q:city.title})}>
