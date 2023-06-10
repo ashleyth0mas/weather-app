@@ -2,7 +2,7 @@
 
 import { DateTime } from "luxon";
 
-const APIKEY ="1fa9ff4126d95b8db54f3897a20e91c";
+const APIKEY ="ur api here";
 const BASEURL ="https://api.openweathermap.org/data/2.5";
 
 
