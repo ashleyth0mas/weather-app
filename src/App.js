@@ -28,8 +28,8 @@ useEffect (() => {
   return (
     <div classname="relative">
   <img  classname='w-full shadow-lg shadow-black object-cover
-       rounded-lg mb-3' src={bgimg}></img>
-<div className=" absolute left-5  pt-4 right-5 top-1 bottom-15  mx-auto max-w-screen-md mt-4 py-5 px-32 bg-transparent shadow-2xl shadow-gray-400 h-fit rounded-3xl ">
+       rounded-lg' src={bgimg}></img>
+<div className=" absolute left-5  pt-4 right-5 top-1 bottom-15  mx-auto max-w-screen-md mt-2 py-5 px-32 bg-transparent shadow-2xl shadow-gray-400 h-fit rounded-3xl ">
     
      <Topbuttons setQuery={setQuery} />
      <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />
